@@ -69,7 +69,7 @@ section {
 }
 #welcome {
   background-color: rgb(187, 183, 183);
-  padding-top: 15em;
+  /* padding-top: 15em; */
 }
 .section-title {
   margin-bottom: 0.1em;
@@ -97,6 +97,20 @@ section {
   margin: 0 auto;
   background-color: rgb(133, 125, 125);
 }
+.bonus {
+  padding-top: 10em;
+}
+/* @media (max-width: 999px) {
+  #welcome {
+    height: 100vh;
+    width: 100vw;
+  }
+  img .big {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+  }
+} */
 
 #projects {
   background-color: rgb(92, 88, 88);
@@ -105,6 +119,8 @@ section {
 .portfolio {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-row-gap: 1.5em;
+  grid-column-gap: 1.5em;
 }
 .port-item {
   overflow: hidden;
